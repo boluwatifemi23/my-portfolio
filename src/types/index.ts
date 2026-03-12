@@ -16,9 +16,8 @@ export interface Project {
   github: string
   live: string
   featured: boolean
+  category: string
 }
-
-
 
 export interface ContactInfo {
   icon: ElementType
@@ -26,7 +25,6 @@ export interface ContactInfo {
   value: string
   href: string
 }
-
 
 export interface NavItem {
   name: string
