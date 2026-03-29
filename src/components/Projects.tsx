@@ -19,11 +19,12 @@ const gradients: Record<string, string> = {
   'Luxe':                   'from-yellow-500 to-orange-500',
   'Nexus':                  'from-indigo-500 to-purple-600',
   'TaskMaster':             'from-green-500 to-teal-600',
+  'Dummy Bank':             'from-emerald-500 to-teal-700',
 }
 
 function ProjectImage({ src, alt, name }: { src: string; alt: string; name: string }) {
   const [failed, setFailed] = useState(false)
-  const gradient = gradients[name] || 'from-blue-500 to-purple-600'
+  const gradient = Object.entries(gradients).find(([key]) => name.includes(key))?.[1] || 'from-blue-500 to-purple-600'
 
   if (failed || !src) {
     return (

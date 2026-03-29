@@ -213,8 +213,8 @@ export default function Hero({ darkMode }: HeroProps) {
               >
                 {[
                   { value: '2+', label: 'Years Exp.' },
-                  { value: '6+', label: 'Projects' },
-                  { value: '2', label: 'Live Apps' },
+                  { value: '7+', label: 'Projects' },
+                  { value: '3', label: 'Live Apps' },
                 ].map((stat) => (
                   <div key={stat.label} className="text-center lg:text-left">
                     <div className="text-xl sm:text-2xl font-extrabold gradient-text">{stat.value}</div>
