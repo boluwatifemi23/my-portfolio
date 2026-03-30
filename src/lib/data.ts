@@ -110,7 +110,7 @@ export const projects: Project[] = [
   title: 'SwiftFunds — Digital Banking App',
   description: 'A fully functional fintech web app named SwiftFunds — "Spend Anywhere, Anytime." Built with JavaScript, HTML5, CSS3, and Firebase for real user authentication (account creation and login). Features a clean banking dashboard with send, receive, and money management flows, designed to mirror the UX of modern Nigerian digital finance products. Deployed live on Firebase Hosting — this is not a mockup, it\'s a working app with real auth and a real backend.',
   tech: ['JavaScript', 'HTML5', 'CSS3', 'Firebase'],
-  image: '/images/swiftfunds.swiftfundsimage.jpeg',
+  image: '/images/swiftfundsimage.jpeg',
   github: 'https://github.com/boluwatifemi23',
   live: 'https://myproject-f2fed.web.app/',
   featured: true,
